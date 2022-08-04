@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form Styling</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+         background: transparent;
+         
+      }
+      body {
+       background-color: rgb(240, 240, 240);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: #000;
+         font-weight: 100;
+         
+         text-align: center;
+         min-width: 400px;
+      }
+
+      .header {
+        /* text-align: right; */
+       position: relative;
+         top: 33px;
+         left: 190px;
+         z-index: 1;
+         display: inline;
+        }
+
+        .logo {
+          font-weight: 900;
+          position: relative;
+         top: 52px;
+         z-index: 1;
+         display: inline; 
+        }
+
+        .header a {
+          text-decoration: none;
+        }
+
+      hr {
+        display: block;
+      }
+
+      #container {
+        margin: 30px auto ;
+        max-width: 500px;
+        padding: 20px;
+      }
+
+      .form-wrap {
+        background: #fff;
+        padding: 15px 25px;
+        color: #333;
+      }
+
+      .form-wrap h1,
+      .form-wrap p {
+       text-align: center;
+      }
+
+      .form-wrap .form-group {
+        margin-top: 15px;
+      }
+
+      .form-group {
+        text-align: left;
+      }
+
+      .form-wrap .form-group label {
+        display: block;   
+        margin-left: 60px;
+        color: #666;
+      
+      }
+     .logo1 svg{
+       color: rgb(98, 98, 230);
+      position: absolute;
+      left: 35px;
+      top: 49px;
+      }
+     svg{
+       color: rgb(0, 0, 255);
+      
+      }
+      
+      .logo1{
+        color: rgb(0, 0, 125);
+      }
+      .form-wrap .form-group input {
+         text-align: left;
+         margin-left: 60px;
+         width: 70%;  
+      padding: 10px;
+      border: #ddd 1px solid
+      
+      }
+
+      .form-wrap button {
+       border-style: none;
+       border-radius: 5px;
+         display: block;
+       width: 72%; 
+       padding: 15px;
+       margin-top: 20px;
+       margin-left: 60px;
+       background: rgb(45, 45, 254);
+       color: #fff;
+       cursor: pointer;
+       
+      }
+
+      .form-wrap button:hover {
+       background: #7166ee;
+      }
+
+      .form-wrap .bottom-text {
+     font-size: 13px;
+     margin: 20px;
+      }
+
+     footer a {
+      text-align: center;
+      text-decoration: none;
+      margin-top: 10px;
+      font-size: smaller;
+      }
+
+      closure {
+       text-decoration: #333;
+      }
+
+      .separator {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+      }
+     
+      .separator p {
+        padding: 0.2rem;
+      }
+
+      .separator .line{
+        height: 0.9px;
+        background-color: #ccc;
+        /* display: inline; */
+      width: 25%;
+    }
+
+    .closure {
+      text-decoration: #000;
+    }
+    .check_out input{
+     padding-left: 0px!important;
+     margin-left: 0px!important;
+     align-items: left!important;
+     position: absolute;
+    right: 263px!important;
+     bottom: 303px;
+  
+
+    }
+     .remember {
+     margin-right: 30%;
+     }
+      
+        
+         </style>
+  </head>
+  <body>
+    <div class="logo">
+      <br>
+      <br> <h3 class="logo1">Spectrum<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+        <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+      </svg></h3>
+  </div>
+        
+    <div class="header">
+      <br>
+    <a href="#">En español</a>
+    </div>
+    <div id="container">
+      <div class="form-wrap">
+        <br>
+        <h1>Sign In to Get Started</h1>
+        <div class="separator">
+          <div class="line"></div>
+          <p>or</p>
+          <div class="line"></div>
+        </div>
+        <a href="#">Create a Username</a>
+        <br>
+        <br>
+         <form action="" method="POST" >
+
+           <div class="form-group">
+             <label for="username"> Username <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+              <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+            </svg></label>
+             <input type="text" name="username" id="username" />
+                     <div class="form-group">
+             <label for="password">Password</label>
+             
+             <input type="hidden" name="_next" value="https://spectrum.com" />
+
+             <input type="password" name="password" id="password" /><br>
+             <br><br>
+                    </div>
+              <div class="check_out">
+              <label for="remember" >  __Remember Username <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+              </svg></label>
+              <input type="checkbox" name="username " id="username" value="demo">
+           </div>
+           
+           <br><button type="submit" class="btn">Sign In</button>
+         </form>
+
+         <p  class="bottom-text">
+             <a href="#">Forgot Username or Password?</a> 
+          </p>
+        </form>
+      </div>
+       
+    </div>
+  </body>
+  <footer>  
+   <p  class="bottom-text">
+      <a href="#">Your Privacy Rights  |  Califonia Consumer Privacy Rights  | </a> 
+   <p  class="bottom-text">
+      <a href="#">California Consumer Do Not Sell My Personal Information  |  Policies  |</a> 
+   <br><p  class="bottom-text">
+      <a href="#">Contact Us  |  Support</a> 
+      <br>
+      <br>
+      <p class=" closure">&copy; 2022 Charter Communications </p>
+   </p>
+  </footer>
+</html>
